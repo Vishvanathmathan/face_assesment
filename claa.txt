@@ -1,0 +1,246 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Page</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    </div>
+
+</body>
+</html>
+
+
+        body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+.img{
+	background-image: 800px;
+	background-position: 0%;
+}
+
+.login-container {
+	max-width: 300px;
+	padding: 20px;
+	margin: 40px auto;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	margin-bottom: 10
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	background-color: #18a4a4;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #18a4a4;
+
+}
+
+@media (max-width: 768px) {
+	.login-container {
+		width: 90%;
+		margin: 20px auto;
+	}
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Social Environment</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Header Section -->
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">Friends</a></li>
+				<li><a href="#">Settings</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Main Content Section -->
+	<main>
+		<section class="feed">
+			<h2>Feed</h2>
+			<!-- Post 1 -->
+			<div class="post">
+				<img src="user1.jpg" alt="User 1 Profile Picture">
+				<div class="post-content">
+					<h3>User 1</h3>
+					<p>This is a sample post from User 1.</p>
+					<button LIKE</button>
+					<button COMMENT</button>
+				</div>
+			</div>
+			
+			<!-- Post 2 -->
+			<div class="post">
+				<img src="user2.jpg" alt="User 2 Profile Picture">
+				<div class="post-content">
+					<h3>User 2</h3>
+					<p>This is a sample post from User 2.</p>
+					<button LIKE</button>
+					<button COMMENT</button>
+				</div>
+			</div>
+			
+			<!-- Add more posts here -->
+		</section>
+		
+		<section class="sidebar">
+			<h2>Sidebar</h2>
+			<!-- Add sidebar content here -->
+		</section>
+	</main>
+	
+	<!-- Footer Section -->
+	<footer>
+		<p>&copy; 2023 Social Environment</p>
+	</footer>
+	
+	<script src="script.js"></script>
+</body>
+</html>
+
+CSS (in style.css file):
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.feed {
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.post-content h3 {
+	margin-bottom: 10px;
+}
+
+.post-content p {
+	margin-bottom: 20px;
+}
+
+button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+.sidebar {
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+	<a href="nextpage.html">
+		<button><center>Go to Next Page</center></button>
